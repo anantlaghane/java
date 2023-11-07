@@ -1,0 +1,3566 @@
+DATE 
+----
+24/07/23
+-------------------------------------
+
+Program 1
+-------------
+class Demo
+{
+	public static void main (String args[])
+	{
+	int n = 5;
+	{
+	for(int i = 1; i<=5; i++)
+	{
+		for(int j = 1; j<=5; j++)
+		{
+		 System.out.print("*");
+		}
+	System.out.println();
+	}
+	}	
+	}
+}
+
+Output
+---------
+*****
+*****
+*****
+*****
+*****
+
+--------------------------------------------------------------------------------------------------------
+
+Program 2
+---------
+
+11111
+22222
+33333
+44444
+55555
+
+Input
+------
+
+class Demo
+{
+public static void main(String args[])
+	{
+	int n = 5;
+	{
+	for(int i = 1; i<=n; i++)
+	{
+		for(int j = 1; j<=n; j++)
+		{
+			System.out.print(i);
+		}
+		System.out.println();
+	}
+	}
+	}
+
+}
+--------------------------------------------------------------------------------------------------------
+Program 3
+---------
+
+12345
+12345
+12345
+12345
+12345
+
+Input
+------
+class Demo
+{
+	public static void main(String args[])
+	{
+	int n = 5;
+	{
+	for(int i = 1; i<=n; i++)
+	{
+		for(int j = 1; j<=n; j++)
+		{
+			System.out.print(j);
+		}
+		System.out.println();
+
+	}
+	}
+	}
+}
+-----------------------------------------------------------------------------------------------------
+
+Program 4
+---------
+
+55555
+44444
+33333
+22222
+11111
+
+Input
+------
+
+class Demo 
+{
+public static void main(String args[])
+
+	{
+	int n = 5;
+	{
+	for( int i = n; i>=1; i--)
+	{
+		for(int j = 1; j<=n; j++)
+		{
+			System.out.print(i);
+		}
+		System.out.println();
+	
+	}
+	}
+	}
+}
+
+---------------------------------------------------------------------------------------------------
+
+Program 5
+---------
+
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+
+Input
+-------
+
+class Demo
+{
+	public static void main(String args[])
+		{
+		int n = 5;
+			{
+				for(int i=1; i<=n; i++)
+				{
+					for(int j=1; j<=n; j++)
+						{
+							System.out.print((char)(i+64));
+						}
+					System.out.println();
+				}
+			}
+		}
+	
+}
+------------------------------------------------------------------------------------------------------
+
+Program 6
+---------
+aaaaa
+bbbbb
+ccccc
+ddddd
+eeeee
+
+Input
+-------
+class Demo
+{
+	public static void main(String args[])
+		{
+		int n = 5;
+			{
+				for(int i=1; i<=n; i++)
+				{
+					for(int j=1; j<=n; j++)
+						{
+							System.out.print((char)(i+96));
+						}
+					System.out.println();
+				}
+			}
+		}
+	
+}
+----------------------------------------------------------------------------------------------------
+
+Program 7
+----------
+
+EDCBA
+EDCBA
+EDCBA
+EDCBA
+EDCBA
+
+Input
+------
+
+class Demo
+{
+	public static void main(String args[])
+		{
+		int n = 5;
+		{
+		for(int i = 1; i<=n; i++)
+		{
+			for(int j = n; j>=1; j--)
+			{
+				System.out.print((char)(j+64));
+			}
+			System.out.println();
+		}
+		}	
+		}
+	
+}
+
+---------------------------------------------------------------------------------------------
+
+Program 8
+----------
+
+edcba
+edcba
+edcba
+edcba
+edcba
+
+Input
+-------
+
+class Demo
+{
+	public static void main(String args[])
+		{
+		int n = 5;
+		{
+		for(int i = 1; i<=n; i++)
+		{
+			for(int j = n; j>=1; j--)
+			{
+				System.out.print((char)(j+96));
+			}
+			System.out.println();
+		}
+		}	
+		}
+	
+}
+
+----------------------------------------------------------------------------------------------
+
+Homework
+-------
+Program 9
+---------
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+DATE
+------
+25/07/23
+---------
+
+Program 10
+----------
+
+*
+**
+***
+****
+*****
+
+Input
+------
+
+
+class Demo
+{
+	public static void main(String args[])
+	{int n = 5;
+		{
+			for(int i = 1; i<=n; i++)
+			{
+				for(int j=i; j>=1; j--)
+				{
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+		}
+
+	}
+}
+
+-----------------------------------------------------------------------------------------
+
+
+Program 11
+-----------
+
+*****
+****
+***
+**
+*
+
+
+Input
+-------
+
+class Demo
+{
+public static void main(String args[])
+	{
+		int n=5;
+		
+		{
+			for(int i = n; i >= 1; i--)
+			{
+				for(int j = i; j>=1; j--)
+				{
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+		}
+	}	
+}
+
+-----------------------------------------------------------------------------------------------
+
+Program 12
+----------
+1
+22
+333
+4444
+55555
+
+
+Input
+------
+
+class Demo
+{
+public static void main(String args[])
+
+	{
+		int n = 5;
+
+		{
+			for(int i = 1; i<=n; i++)
+			{
+				for(int j = i; j>=1; j--)
+				{
+					System.out.print(i);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+--------------------------------------------------------------------------------------------
+
+Program 13
+----------
+
+11111
+2222
+333
+44
+5
+
+
+
+Input
+-------
+
+class Demo
+{
+public static void main(String args[])
+
+	{
+		int n = 5;
+
+		{
+			for(int i = 1; i<=n; i++)
+			{
+				for(int j = i; j<=n; j++)
+				{
+					System.out.print(i);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+-----------------------------------------------------------------------------------------------------
+
+Program 14
+------------
+
+5
+44
+333
+2222
+11111
+
+Input
+-------
+
+class Demo
+{
+public static void main(String args[])
+
+	{
+		int n = 5;
+
+		{
+			for(int i = n; i>=1; i--)
+			{
+				for(int j = i; j<=5; j++)
+				{
+					System.out.print(i);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+--------------------------------------------------------------------------------------------------------
+
+Program 15
+----------
+
+EEEEE
+DDDD
+CCC
+BB
+A
+
+
+Input
+-------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n = 5;
+	
+		{
+			for(int i = n; i>=1, i--)
+			{
+				for(int j=i; j>=1; j--)
+				{
+					System.out.print("(char)(i+64));
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------
+
+Program 16
+-----------
+
+1
+12
+123
+1234
+12345
+
+
+Input
+-------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+
+		{
+
+			for(int i = 1; i<=n; i++)
+			{
+				for( int j = 1; j <= i; j++)
+				{
+					System.out.print(j);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+-------------------------------------------------------------------------------------------------
+
+Program 17
+----------
+
+1
+21
+321
+4321
+54321
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+
+		{
+
+			for(int i = 1; i<=n; i++)
+			{
+				for( int j = i; j >= 1; j--)
+				{
+					System.out.print(j);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+
+--------------------------------------------------------------------------------------------------
+
+Program 18
+-------------
+
+54321
+4321
+321
+21
+
+
+Input
+-----
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+
+		{
+
+			for(int i = n; i>=1; i--)
+			{
+				for( int j = i; j >= 1; j--)
+				{
+					System.out.print(j);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+
+--------------------------------------------------------------------------------------
+
+Program 19
+-----------
+5
+45
+345
+2345
+12345
+
+Input
+--------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+
+		{
+
+			for(int i = n; i>=1; i--)//i>=1
+			{
+				for( int j =i; j <=5; j++)//j<=i
+				{
+					System.out.print(j);
+				}
+				System.out.println();
+			}
+		}
+	}
+}                         
+       
+
+---------------------------------------------------------------------------------------
+
+Program 20
+-----------
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+Input
+---------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=5;i++)
+			{
+				for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(i+64));
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+-----------------------------------------------------------------------------------------------------
+
+Program 21
+------------
+
+E
+DD
+CCC
+BBBB
+AAAAA
+
+Input
+------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i = n; i>=1; i--)
+			{
+				for(int j=i; j<=5; j++ )
+				{
+					System.out.print((char)(i+64));
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+
+-------------------------------------------------------------------------------------------------
+
+Program 22
+------------
+
+A
+AB
+ABC
+ABCD
+ABCDE
+
+Input
+--------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n = 5;
+		{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=1; j<=i; j++)
+				{
+					System.out.print((char)(j+64));
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+----------------------------------------------------------------------------------
+program 23
+a 
+ba
+cba
+dcba
+edcba
+ 
+Input
+--------
+class Demo
+{
+ public static void main(String args[])
+   {
+     int n=5;
+       {
+        for(int i=1;i<=n;i++)
+			{
+				for(int j=i; j>=1; j--)
+				{
+					System.out.print((char)(j+96));
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------------------------------
+PROGRAM 24
+
+E
+ED
+EDC
+EDCB
+EDCBA
+  
+
+INPUT 
+---------------
+class Demo
+{
+ public static void main(String args[])
+   {
+     int n=5;
+       {
+        for(int i=n;i>=1;i--)
+			{
+				for(int j=5; j>=i; j--)
+				{
+					System.out.print((char)(j+64));
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+------------------------------------------------------------------------------------------------
+PROGRAM 25
+11111
+2222
+333
+44
+5
+
+
+INPUT -
+-------------
+class Demo
+{
+ public static void main(String args[])
+   {
+     int n=5;
+       {
+        for(int i=1;i<=n;i++)
+			{
+				for(int j=i; j<=n; j++)
+				{
+					System.out.print(i);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------------------------------------------
+Program 26
+55555
+4444
+333
+22
+1
+ 
+Input
+-----------
+class Demo
+{
+ public static void main(String args[])
+   {
+     int n=5;
+       {
+        for(int i=n;i>=1;i--)
+			{
+				for(int j=i; j>=1; j--)
+				{
+					System.out.print(i);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+-------------------------------------------------------------------------------------------------------
+program 27
+12345
+1234
+123
+12
+1
+  
+Input:
+class Demo
+{
+ public static void main(String args[])
+   {
+     int n=5;
+       {
+        for(int i=n;i>=1;i--)
+			{
+				for(int j=1; j<=i; j++)
+				{
+					System.out.print(j);
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+----------------------------------------------------------------------------------------------------
+Program 28
+---------
+
+12345
+2345
+345
+45
+5
+
+
+Input
+----------------------------------------
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=1;i<=n;i++)
+			{
+ 				for(int j=i; j<=n; j++)
+                                {
+					System.out.print(j);
+
+				}
+					System.out.println();
+			}
+		}
+	}
+}                               
+    
+-----------------------------------------------------------------------------------------              
+     
+Program 29
+----------
+54321
+5432
+543
+54
+5
+
+
+Input:
+-------------------------------------------------------------------
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=1;i<=n;i++)
+			{
+ 				for(int j=5; j>=i; j--)
+                                {
+					System.out.print(j);
+
+				}
+					System.out.println();
+			}
+		}
+	}
+}                               
+  
+---------------------------------------------------------------------------------------------------
+Program 30
+----------
+54321
+4321
+321
+21
+1
+
+Input
+------
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=5;i>=1;i--)
+			{
+ 				for(int j=i; j>=1; j--)
+                                {
+					System.out.print(j);
+
+				}
+					System.out.println();
+			}
+		}
+	}
+}                               
+       
+---------------------------------------------------------------------------------------------------------
+Program 31
+---------------------
+AAAAA
+BBBB
+CCC
+DD
+E
+
+
+Input:
+--------------
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=1;i<=n;i++)
+			{
+ 				for(int j=i; j<=n; j++)
+                                {
+					System.out.print((char)(i+64));
+
+				}
+					System.out.println();
+			}
+		}
+	}
+}                               
+     
+-------------------------------------------------------------------------------------------------
+ Program 32
+------------------
+eeeee
+dddd
+ccc
+bb
+a
+
+
+Input:
+----------------
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=n;i>=1;i--)
+			{
+ 				for(int j=i; j>=1; j--)
+                                {
+					System.out.print((char)(i+96));
+
+				}
+					System.out.println();
+			}
+		}
+	}
+}                               
+-----------------------------------------------------------------------------------------------------------
+Program 33
+-----------------
+abcde
+bcde
+cde
+de
+e
+
+Input:
+-------------
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=1;i<=n;i++)
+			{
+ 				for(int j=i; j<=n; j++)
+                                {
+					System.out.print((char)(j+96));
+
+				}
+					System.out.println();
+			}
+		}
+	}
+} 
+
+------------------------------------------------------------------------------------------------------
+program 34:
+----------------
+edcba
+dcba
+cba
+ba
+a
+
+Input:
+-------
+
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=n;i>=1;i--)
+			{
+ 				for(int j=i; j>=1; j--)
+                                {
+					System.out.print((char)(j+96));
+
+				}
+					System.out.println();
+			}
+		}
+	}
+}                               
+-------------------------------------------------------------------------------------------------  
+Program 35:
+-------
+
+EDCBA
+EDCB
+EDC
+ED
+E
+
+input:
+-------
+class Demo
+{
+    public static void main(String args[])
+	{
+   		int n=5;
+		{
+ 		   for(int i=1;i<=n;i++)
+			{
+ 				for(int j=5; j>=i; j--)
+                                {
+					System.out.print((char)(j+64));
+
+				}
+					System.out.println();
+			}
+		}
+	}
+}      
+
+--------------------------------------------------------------------------------------------
+Program 36:
+    1
+   22
+  333
+ 4444
+55555
+
+Output;
+-----------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=5;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print(i);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-------------------------------------------------------------------------------------------------
+ Program 37
+    5
+   44
+  333
+ 2222
+11111
+
+Input:
+----------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=5;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print(i);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-----------------------------------------------------------------------------
+Program 38
+    1
+   12
+  123
+ 1234
+12345
+ 
+Input:
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=1;j<=i;j++)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+
+-------------------------------------------------------------------------------------
+Program 39
+    1
+   21
+  321
+ 4321
+54321
+
+Input:
+-----------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-----------------------------------------------------------------------
+Program 40
+    5
+   54
+  543
+ 5432
+54321
+
+
+Input:
+---------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+		{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}  
+  
+-------------------------------------------------------------------------------------
+
+
+Program 41
+----------
+
+    5
+   45
+  345
+ 2345
+12345
+
+Input
+-------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j<=n;j++)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+	
+------------------------------------------------------------------------------
+Program 42
+    A
+   BB
+  CCC
+ DDDD
+EEEEE
+
+Input:
+-------------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(i+64));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+----------------------------------------------------------------
+
+Program 43
+-----------
+
+    E
+   DD
+  CCC
+ BBBB
+AAAAA
+
+Input
+-------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j<=n;j++)
+				{
+					System.out.print((char)(i+64));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+
+------------------------------------------------------------------------------------
+
+Program 44
+----------
+
+    a
+   ab
+  abc
+ abcd
+abcde
+
+Input
+--------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=1;j<=i;j++)
+				{
+					System.out.print((char)(j+96));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------------------
+Program  45
+    a
+   ba
+  cba
+ dcba
+edcba
+
+Input:
+-------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(j+96));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-----------------------------------------------------------------------------
+Program 46
+
+    E
+   ED
+  EDC
+ EDCB
+EDCBA
+  
+Input:
+--------------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print((char)(j+64));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+------------------------------------------------------------------------------
+Program 47
+    e
+   de
+  cde
+ bcde
+abcde
+ 
+
+Input:
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j<=n;j++)
+				{
+					System.out.print((char)(j+96));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-------------------------------------------------------------------------------------
+Program 48
+11111
+ 2222
+  333
+   44
+    5
+
+Input:
+----------------
+ class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j<=n;j++)
+				{
+					System.out.print(i);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+--------------------------------------------------------------------------------------
+Program 48
+55555
+ 4444
+  333
+   22
+    1
+Input:  
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=5;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print(i);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------------------------------------
+Program 49:
+
+12345
+ 1234
+  123
+   12
+    1
+
+Input
+--------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=1;j<=i;j++)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-----------------------------------------------------------------------
+
+Program 50
+----------
+12345
+ 2345
+  345
+   45
+    5
+
+Input
+------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j<=n;j++)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+
+---------------------------------------------------------------------------
+
+Program 51
+-----------
+
+54321
+ 5432
+  543
+   54
+    5
+
+Input
+-------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-----------------------------------------------------------------------
+
+Program 52
+----------
+
+54321
+ 4321
+  321
+   21
+    1
+
+Input
+--------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+----------------------------------------------------------------------
+
+Program 53
+----------
+
+AAAAA
+ BBBB
+  CCC
+   DD
+    E
+
+Input
+-------
+ class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j<=n;j++)
+				{
+					System.out.print((char)(i+64));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+----------------------------------------------------------------------
+program 54
+--------
+eeeee
+ dddd
+  ccc
+   bb
+    a
+
+Input:
+
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=5;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(i+96));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+
+------------------------------------------------------------------------------------------
+Program 55:
+ABCDE 
+ ABCD
+  ABC
+   AB
+    A
+
+ input:
+
+---------------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=1;j<=i;j++)
+				{
+					System.out.print((char)(j+64));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------
+
+Program  56:
+abcde
+ bcde
+  cde
+   de
+    e
+
+Input:
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j<=n;j++)
+				{
+					System.out.print((char)(j+96));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------------------------------------
+ 57
+EDCBA
+ EDCB
+  EDC
+   ED
+    E
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print((char)(j+64));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+------------------------------------------------------------------
+Program 58:
+
+
+edcba
+ dcba
+  cba
+   ba
+    a
+Input:
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print((char)(j+96));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+
+------------------------------------------------------------------------------------
+Space Program
+---------------
+
+Program 59
+----------
+    *
+   **
+  ***
+ ****
+*****
+
+Input
+-----------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print("*");
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+------------------------------------------------------------------------------
+Program 60
+
+*****
+ ****
+  ***
+   **
+    *
+
+Input 
+-----------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print("*");
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+
+
+----------------------------------------------------------------------------------------
+ program 60
+    1
+   22
+  333
+ 4444
+55555
+
+Input:
+------------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print(i);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+----------------------------------------------------------------------------------
+Program 61
+    5
+   44
+  333
+ 2222
+11111 
+
+Input
+-------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print(i);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------------------
+
+Program 62
+-----------
+
+55555
+ 4444
+  333
+   22
+    1
+
+Input 
+-------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print(i);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+----------------------------------------------------------------------------
+Program 63
+    1
+   21
+  321
+ 4321
+54321
+
+Input
+---------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=i;j>=1;j--)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-----------------------------------------------------------------------------------------
+Program 64
+54321
+ 5432
+  543
+   54
+    5
+Input
+------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=1;i<=n;i++)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print(j);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+---------------------------------------------------------------------------------------------------
+Program 65
+    E
+   ED
+  EDC
+ EDCB
+EDCBA
+
+
+Input:
+------------
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j>1;j--)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=n;j>=i;j--)
+				{
+					System.out.print((char)(j+64));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+-------------------------------------------------------------------------------------------------------
+Program 66
+abcde
+ abcd
+  abc
+   ab
+    a
+
+Input
+---------
+
+class Demo
+{
+	public static void main(String args[])
+
+	{
+	int n=5;
+{
+			for(int i=n;i>=1;i--)
+			{
+				for(int j=i;j<n;j++)
+				{
+					System.out.print(" ");
+				}
+				   for(int j=1;j<=i;j++)
+				{
+					System.out.print((char)(j+96));
+				}
+
+				System.out.println();
+			}
+		}
+	}
+}
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+Counter Program
+------------
+
+
+
+Program 67
+-----------
+
+1
+2   3
+4   5   6
+7   8   9   10
+11  12  13  14  15
+
+Input
+---------
+
+class Demo
+{ 
+	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count = 1;
+		for(int i = 1; i <= n; i++)
+		{
+			for(int j =i; j>=1; j--)
+			{
+				System.out.print(count+"\t");
+				count++;
+			}
+			System.out.println();
+		}
+	}
+}
+------------------------------------------------------------------------------------------------
+
+Program 68
+---------
+
+15
+14  13  
+12  11  10
+9   8   7   6
+5   4   3   2   1
+
+
+Input:
+-------
+class Demo
+{ 
+	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count = (n*(n+1))/2;
+		for(int i = 1; i <= n; i++)
+		{
+                        
+			for(int j =i; j>=1; j--)
+			{
+				System.out.print(count+"\t");
+				count--;
+			}
+			System.out.println();
+		}
+	}
+}
+-------------------------------------------------------------------
+
+Program 69
+----------
+
+
+1
+3	2	
+6	5	4	
+10	9	8	7	
+15	14	13	12	11
+
+Input
+------
+
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count = 1;
+		for(int i = 1; i<=n; i++)
+		{
+			int c = count;
+
+			for(int j = 1; j<=i; j++)
+			{	
+				System.out.print(c+"\t");
+				c--;
+			}
+		System.out.println();
+		count+=i+1;
+		}
+	}
+}
+
+---------------------------------------------------------------------------------------------
+
+Program 70
+-----------
+15
+13	14
+10	11	12	
+6	7	8	9
+1	2	3	4	5
+
+Input
+------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count = (n*(n+1))/2;
+		for(int i = 1; i<=n; i++)
+		{
+			int c = count;
+
+			for(int j = 1; j<=i; j++)
+			{	
+				System.out.print(c+"\t");
+				c++;
+			}
+		System.out.println();
+		count-=i+1;
+		}
+	}
+}
+
+------------------------------------------------------------------------------------------
+
+Program 71
+----------
+
+1
+2	6
+3	7	10
+4	8	11	13
+5	9	12	14	15
+
+Input
+------
+
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count = 1;
+		for(int i = n; i>=1; i--)
+		{
+			int c = count;
+
+			for(int j = n; j>=i; j--)
+			{	
+				System.out.print(c+"\t");
+				c+=j-1;
+			}
+		System.out.println();
+		count++;
+		}
+	}
+}
+-------------------------------------------------------------------------------------
+
+Program 72
+-----------
+5
+4	9	
+3	8	12
+2	7	11	14
+1	6	10	13	15
+
+Input
+------
+
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count = n;
+		for(int i = n; i>=1; i--)
+		{
+			int c = count;
+
+			for(int j = n; j>=i; j--)
+			{	
+				System.out.print(c+"\t");
+				c+=j;
+			}
+		System.out.println();
+		count--;
+		}
+	}
+}
+----------------------------------------------------------------------------------
+
+Program 73
+----------
+15
+14	10
+13	9	6
+12	8	5	3
+11	7	4	2	1
+
+Input
+-------
+
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count = (n*(n+1))/2;
+		for(int i = n; i>=1; i--)
+		{
+			int c = count;
+
+			for(int j = n; j>=i; j--)
+			{	
+				System.out.print(c+"\t");
+				c-=j-1;
+			}
+		System.out.println();
+		count--;
+		}
+	}
+}
+
+-----------------------------------------------------------------------------------------
+
+Program 74
+-----------
+
+5
+9	4
+12	8	3
+14	11	7	2
+15	13	10	6	1
+
+Input
+-------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count = n;
+		for(int i = n; i>=1; i--)
+		{
+			int c = count;
+
+			for(int j = i; j<=n; j++)
+			{	
+				System.out.print(c+"\t");
+				c-=j+1;
+			}
+		System.out.println();
+		count+=i-1;
+		}
+	}
+}
+-----------------------------------------------------------------------------------------
+
+Program 75
+----------
+11
+7	12
+4	8	13
+2	5	9	14
+1	3	6	10	15
+
+Input
+--------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count = (n*(n-1))/2+1;
+		for(int i = n; i>=1; i--)
+		{
+			int c = count; 
+			for(int j =i;j<=n;j++)
+			{	
+				System.out.print(c+"\t");
+				c+=j+1;
+			}
+		System.out.println();
+		count-=i-1;
+		}
+	}
+}
+-----------------------------------------------------------------------------------------
+Program 76:
+----------------
+1	2	3	4	5
+6	7	8	9
+10	11	12
+13	14
+15
+
+Input
+-----------------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=i;j<=n;j++)
+			{	
+				System.out.print(count+"\t");
+				count++;
+				
+			}
+		System.out.println();
+	
+		}
+	}
+}
+----------------------------------------------------------------------------------------------------
+Program 78:
+1	3	6	10	15
+2	5	9	14
+4	8	13
+7 	12
+11
+
+Output
+----------------------------------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=5;i++)
+		{          
+			int c=count;
+			for(int j=i;j<=n;j++)
+			{	
+				System.out.print(c+"\t");
+				c+=j+1;
+				
+			}
+		System.out.println();
+	        count+=i;
+		}
+	}
+}
+------------------------------------------------------------------------------------------------------------
+Program 79:
+1	6	10	13	15
+2	7	11	14
+3	8	12	
+4	9
+5
+Output:
+--------------------------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=5;i++)
+		{          
+			int c=count;
+			for(int j=n;j>=i;j--)
+			{	
+				System.out.print(c+"\t");
+				c+=j;
+				
+			}
+		System.out.println();
+	        count++;
+		}
+	}
+}
+
+------------------------------------------------------------------------------------------
+Program 80:
+15 	13	10	6	1
+14	11	7	2	
+12	8	3
+9	4
+5
+
+Input:
+------------------------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		int count=(n*(n+1))/2;
+		for(int i=1;i<=n;i++)
+		{          
+			int c=count;
+			for(int j=i;j<=n;j++)
+			{	
+				System.out.print(c+"\t");
+				c-=j+1;
+				
+			}
+		System.out.println();
+	        count-=i;
+		}
+	}
+}
+------------------------------------------------------------------------------------------------------------------
+Program 81:
+
+abcde          
+fghi
+jkl
+mn
+o
+
+Input
+-------------------------------
+class Demo{
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=n;i++)
+			{
+
+  		 for(int j=i; j<=n ;j++)
+				{
+			       System.out.print((char)(count+96));
+                                 count++;
+				}
+			System.out.println();
+			
+		}
+	}
+	
+}
+--------------------------------------------------------------------------
+program 82:
+--------
+
+klmno
+ghij
+def
+bc
+a
+
+11	12	13	14	15
+7	8	9	10
+4	5	6
+2	3
+1
+
+Input
+-------
+
+class Demo{
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=((n*(n-1))/2)+1;
+		for(int i=n;i>=1;i--)
+		{
+		int c=count;
+  		for(int j=i; j>=1 ;j--)
+				{
+			       System.out.print((char)(c+96));
+                                 c++;
+				}
+			System.out.println();
+			count-=i-1;
+		}
+	}
+	
+}
+----------------------------------------------------------------------------------------------
+Program 83
+---------
+
+afjmo
+bgkn
+chl
+di
+e
+
+1	6	10	13	15
+2	7	11	14
+3	8	12
+4	9	
+5
+
+Input
+------
+class Demo{
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=n;i++)
+		{
+		int c=count;
+  		for(int j=n; j>=i ;j--)
+				{
+			       System.out.print((char)(c+96));
+                                 c+=j;
+				}
+			System.out.println();
+			count++;
+		}
+	}
+	
+}
+
+
+------------------------------------------------------------------------------------------
+Program 84
+----------
+
+eilno
+dhkm
+cgj
+bf
+a
+
+
+5	9	12	14	15
+4	8	11	13
+3	7	10	
+2	6
+1
+class Demo
+ {
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=5;
+		for(int i=1;i<=n;i++)
+		{
+		int c=count;
+  		for(int j=n; j>=i ;j--)
+				{
+			       System.out.print((char)(c+96));
+                                 c+=j-1;
+				}
+			System.out.println();
+			count--;
+		}
+	}
+	
+}
+----------------------------------------------------------------------------------------------------------------
+program 85
+kgdba
+lhec
+mif
+nj
+o
+ 
+11 	7	4	2	1
+12	8	5	3
+13 	9	6
+14	10
+15	
+
+Input:
+class Demo
+ {
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=((n*(n-1)/2))+1;
+		for(int i=1;i<=n;i++)
+		{
+		int c=count;
+  		for(int j=n; j>=i ;j--)
+				{
+			       System.out.print((char)(c+96));
+                                 c-=j-1;
+				}
+			System.out.println();
+			count++;
+		}
+	}
+	
+}
+------------------------------------------------------------------------------------
+Program 86:
+-----------
+
+omjfa
+nkgb
+lhc
+id
+e
+
+
+15	13	10	6	1
+14	11	7	2
+12	8	3
+9	4
+5
+
+
+Input
+------
+class Demo
+ {
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=(n*(n+1))/2;
+		for(int i=1;i<=n;i++)
+		{
+		int c=count;
+  		for(int j=i; j<=n ;j++)
+				{
+			       System.out.print((char)(c+96));
+                                 c-=j+1;
+				}
+			System.out.println();
+			count-=i;
+		}
+	}
+	
+}
+
+--------------------------------------------------------------------------------------
+
+Program 87
+-----------
+
+onlie
+mkhd
+jgc
+fb
+a
+
+15	14	12	9	5
+13	11	8	4
+10	7	3
+6	2
+1
+
+Input
+-------
+class Demo
+ {
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=(n*(n+1))/2;
+		for(int i=1;i<=n;i++)
+		{
+		int c=count;
+  		for(int j=i; j<=n ;j++)
+				{
+			       System.out.print((char)(c+96));
+                                 c-=j;
+				}
+			System.out.println();
+			count-=i+1;
+		}
+	}
+	
+}
+
+-----------------------------------------------------------------------------------------
+
+Program 88
+----------
+
+acfjo
+bein
+dhm
+gl
+k
+
+1	3	6	10	15
+2	5	9	14
+4	8	13
+7	12
+11
+
+Input
+------
+class Demo
+ {
+ public static void main(String args[])
+ 	{
+		int n=5;
+		int count=1;
+		for(int i=1;i<=n;i++)
+		{
+		int c=count;
+  		for(int j=i; j<=n ;j++)
+				{
+			       System.out.print((char)(c+96));
+                                 c+=j+1;
+				}
+			System.out.println();
+			count+=i;
+		}
+	}
+	
+}
+---------------------------------------------------------------------------------------------------------
+
+
+Program 89
+-----------
+
+				1
+			2	3
+		4	5	6	
+	7	8	9	10
+11	12	13	14	15
+
+Input
+------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count = 1;
+			for(int i=1; i<=n;i++ )
+			{
+				for(int j=i; j<n; j++)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j>=1;j-- )
+				{
+					System.out.print(count+"\t");
+					count++;
+				}
+			System.out.println();	
+			}
+	}
+}
+------------------------------------------------------------------------------------------------
+Program 90
+---------
+
+				1
+			2	6
+		3	7	10
+	4	8	11	13
+5	9	12	14	15
+
+Input
+---------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count = 1;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c= count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=n; j>=i;j--)
+				{
+					System.out.print(c+"\t");
+					c+=j-1;
+				}
+			System.out.println();
+			count++;	
+			}
+	}
+}
+---------------------------------------------------------------------------------------------------
+Program 91
+----------
+
+				11
+			7	12
+		4	8	13
+	2	5	9	14
+1	3	6	10	15
+
+Input
+-------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =((n*(n-1))/2)+1;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c= count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j<=n;j++)
+				{
+					System.out.print(c+"\t");
+					c+=j+1;
+				}
+			System.out.println();
+			count-=i-1;	
+			}
+	}
+}
+
+-----------------------------------------------------------------------------------------------
+Program 92
+-----------
+				15
+			10	14
+		6	9	13
+	3	5	8	12
+1	2	4	7	11
+
+Input
+---------
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =(n*(n+1))/2;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c= count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j<=n;j++)
+				{
+					System.out.print(c+"\t");
+					c+=j;
+				}
+			System.out.println();
+			count-=i;	
+			}
+	}
+}
+-----------------------------------------------------------------------------------------------------
+Program 93
+-----------
+
+				11
+			12	7
+		13	8	4
+	14	9	5	2
+15	10	6	3	1
+
+Input
+-------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =(n*(n+1))/2;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c= count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j<=n;j++)
+				{
+					System.out.print(c+"\t");
+					c+=j;
+				}
+			System.out.println();
+			count-=i;	
+			}
+	}
+}
+
+-----------------------------------------------------------------------------------------
+Program 94
+-----------
+
+				11
+			12	7
+		13	8	4	
+	14	9	5	2
+15	10	6	3	1
+
+Input
+------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =((n*(n-1))/2)+1;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c= count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=n; j>=i;j--)
+				{
+					System.out.print(c+"\t");
+					c+=j+1;
+				}
+			System.out.println();
+			count++;	
+			}
+	}
+}
+------------------------------------------------------------------------------------------
+Program 95
+----------
+
+				1
+			6	2
+		10	7	3
+	13	11	8	4
+15	14	12	9	5
+
+Input
+------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =1;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c= count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j<=n;j++)
+				{
+					System.out.print(c+"\t");
+					c+=j-1;
+				}
+			System.out.println();
+			count+=i;	
+			}
+	}
+}
+-------------------------------------------------------------------------------------------
+Homework
+
+Program 96
+-----------
+				15
+			14	13
+		12	11	10
+	9	8	7	6
+5	4	3	2	1
+
+Input
+------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =(n*(n+1))/2;
+			for(int i=n; i>=1;i-- )
+			{	
+				
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j<=n;j++)
+				{
+					System.out.print(count+"\t");
+					count--;
+				}
+			System.out.println();
+				
+			}
+	}
+}
+-----------------------------------------------------------------------------------------------------15
+Program 97
+-----------
+
+				15
+			13	14
+		10	11	12
+	6	7	8	9
+1	2	3	4	5
+
+Input
+------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =(n*(n+1))/2;
+			for(int i=1; i<=n;i++ )
+			{	
+				int c=count;
+				for(int j=i; j<n; j++)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j>=1;j--)
+				{
+					System.out.print(c+"\t");
+					c++;
+				}
+			System.out.println();
+			count-=i+1;	
+			}
+	}
+}
+---------------------------------------------------------------------------------------------------
+Program 98
+------------
+
+				15
+			14	10
+		13	9	6
+	12	8	5	3
+11	7	4	2	1
+
+Input
+------
+
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =(n*(n+1))/2;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c=count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=n; j>=i;j--)
+				{
+					System.out.print(c+"\t");
+					c-=j-1;
+				}
+			System.out.println();
+			count--;	
+			}
+	}
+}
+----------------------------------------------------------------------------------------------------
+Program 99**
+----------
+
+				11
+			7	12
+		4	8	13
+	2	5	9	14
+1	3	6	10	15
+
+Input
+--------
+
+
+-----------------------------------------------------------------------------------------------------
+Program 100
+-----------
+
+				15
+			10	14
+		6	9	13
+	3	5	8	12
+1	2	4	7	11
+
+Input
+------
+
+	
+class Demo
+{	public static void main(String args[])
+
+	{
+		int n = 5;
+		int count =(n*(n+1))/2;
+			for(int i=n; i>=1;i-- )
+			{	
+				int c=count;
+				for(int j=i; j>1; j--)
+				{
+					System.out.print("\t");
+				}
+				for(int j=i; j<=n;j++)
+				{
+					System.out.print(c+"\t");
+					c+=j;
+				}
+			System.out.println();
+			count-=i;	
+			}
+	}
+}
+-------------------------------------------------------------------------------------------------------
+ Program 101
+------------
+
+Double Counter
+-------------
+
+Ak
+Fl	Bg
+Jm	Gh	Cd
+Mn	Ki	He	Db
+Oo	Nj	Lf	Ic	Ea
+
+1
+6	2
+10	7	3
+13	11	8	4
+15	14	12	9	5
+
+
+11	
+12	7
+13	8	4
+14	9	5	2
+15	10	6	3	1
+					
+
+Input:
+---------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n = 5;
+		int count1=1;
+		int count2=((n*(n-1))/2)+1;
+		for(int i=n; i>=1; i--)
+		{
+			int c1=count1;
+			int c2=count2;
+			for(int j1=i, j2=n; j1<=n|| j2>=i; j1++, j2--)
+			{
+				System.out.print((char)(c1+64)+""+(char)(c2+96)+" ");
+				c1-=j1;
+				c2-=j2;
+
+			}
+			System.out.println();
+			count1+=i;
+			count2++;
+		}
+	}
+}
+----------------------------------------------------------------------------
+Program 102
+-----------
+
+Ka
+Gc	Lb
+Df	He 	Md
+Bj	Ei	Ih	Ng
+Ao	Cn	Fm	Jl	Ok
+
+11
+7	12
+4	8	13
+2	5	9	14
+1	3	6	10 	15
+
+
+1	
+3	2
+6	5	4
+10	9	8	7
+15	14 	13	12	11
+
+Input
+---------
+
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n = 5;
+		int count1=((n*(n-1))/2)+1;;
+		int count2=1;
+		for(int i1=n,i2=1; i1>=1|| i2<=n; i1--,i2++)
+		{
+			int c1=count1;
+			int c2=count2;
+			for(int j1=i1, j2=i2; j1<=n|| j2>=1; j1++, j2--)
+			{
+				System.out.print((char)(c1+64)+""+(char)(c2+96)+" ");
+				c1+=j1+1;
+				c2--;
+
+			}
+			System.out.println();
+			count1-=i1-1;
+			count2+=i2+1;
+		}
+	}
+}
+--------------------------------------------------------------------------------------------------------
+Program 103 ***
+-----------
+
+AO
+FJ	BN
+JF	GI	CM
+MC	KE	HH	DL
+OA	NB	LD	IG	EK
+
+1
+6	2	
+10	7	3
+13	11	8	4
+15	14	12	9	5
+
+15
+10	14
+6	9	13
+3	5	8	12
+1	2	4	7	11
+
+Input
+-----------
+class Demo
+{
+	public static void main(String args[])
+	{
+		int n = 5;
+		int count1=1;
+		int count2=(n*(n+1))/2;
+		for(int i1=n; i1>=1; i1--)
+		{
+			int c1=count1;
+			int c2=count2;
+			for(int j1=i1, j2=i1; j1<=n||j2<=n; j1++,j2++)
+			{
+				System.out.print((char)(c1+64)+""+(char)(c2+64)+" ");
+				c1-=j1;
+				c2+=j1;
+
+			}
+			System.out.println();
+			count1+=i1;
+			//count2-=j2;
+		}
+	}
+}
+
+-------------------------------------------------------------------------------------------------------
+
+Program 104
+----------
+
+Ae	Ci	Fl	Jn	Oo
+Bd	Eh	Ik	Nm
+Dc	Hg	Mj
+Gb	Lf
+Ka
+
+1	3	6	10	15
+2	5	9	14
+4	8	13
+7	12
+11
+
+5	9	12	14	15
+4	8	11	13
+3	7	10
+2	6	
+1
+
+Input
+--------
+
+
+
+---------------------------------------------------------------------------------------------------------
+Program 105
+------------
+
+oA	jF	fJ	cM	aO
+	nB	iG	eK	bN	
+		mC	hH	dL
+			lD	gI
+				kE	
+
+	
